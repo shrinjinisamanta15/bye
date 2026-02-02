@@ -6,19 +6,19 @@ export const getAsset = (path: string) => {
 
 const siteConfig = {
   personal: {
-    name: 'Put your name inside the quote',
-    title: 'Your Title | Your Role',
-    image: getAsset('images/profile.png'), // Customize or replace with your profile image
+    name: 'Shrinjini Samanta',
+    title: 'Making Sense of Stories and Statistics | Research , Writing and Data Analysis',
+    image: getAsset('images/image.png'), // Customize or replace with your profile image
     description:
-      'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
+      'I am an undergraduate student with a strong foundation in humanities, mathematics, and economics. My interests lie in research, data-driven analysis, and academic writing, where I aim to connect social realities with quantitative insight.\n' +
       '\n' +
-      'Mention your institution or company, areas of interest, and what you teach or build.\n' +
+      'Student at Christ University Bannerghatta Road Campus pursuing a Bsc with a major in Economics and a minor in Data Science.\n' +
       '\n' +
-      'Summarize your education or certifications briefly and highlight your practical work.\n' +
+      'Economics and Data Science undergraduate with hands-on experience in survey-based data analysis through a campus canteen satisfaction study, and social impact exposure through volunteering at an early intervention NGO supporting educational initiatives.\n' +
       '\n' +
-      'Optional: Add notable books, workshops, or training you deliver.',
-    tagline: 'Add a concise personal tagline here.',
-    location: 'Your City, Country',
+      'Presented academic projects and analytical reports during coursework and college events.',
+    tagline: 'Driven by curiosity and clarity.',
+    location: 'Bengaluru, Karnataka, India',
   },
 
   seo: {
@@ -26,7 +26,7 @@ const siteConfig = {
     description: "Portfolio website showcasing your education, research, projects, and experience.",
   },
 
-  animatedText: ['Your Role', 'Your Focus', 'Your Interest', 'Builder'],
+  animatedText: ['Student & Aspiring Analyst', 'Learning through academic projects and hands-on analysis', 'Projects that combine data, people, and insight', 'Someone who learns by doing'],
 
   navigation: [
     { name: 'Home', url: '/' },
