@@ -7,7 +7,7 @@ export const getAsset = (path: string) => {
 const siteConfig = {
   personal: {
     name: 'Shrinjini Samanta',
-    title: 'Making Sense of Stories and Statistics | Research , Writing and Data Analysis',
+    title: 'Making Sense of Stories and Statistics | Research, Writing and Data Analysis',
     image: getAsset('images/image.png'), // Customize or replace with your profile image
     description:
       'I am an undergraduate student with a strong foundation in humanities, mathematics, and economics. My interests lie in research, data-driven analysis, and academic writing, where I aim to connect social realities with quantitative insight.\n' +
